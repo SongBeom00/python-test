@@ -76,19 +76,19 @@
 # print(students)
 
 from random import *
-# count=0
-# person=1
-# while person<=50:
-#     num=randrange(5,51)
-#     if 5<=num<=15 :
-#      print(f"[O] {person}번째 손님 (소요시간 : {num})")
-#      count+=1
-#     else :
-#      print(f"[ ] {person}번째 손님 (소요시간 : {num})")
-#     person+=1
+count=0
+person=1
+while person<=50:
+    num=randrange(5,51)
+    if 5<=num<=15 :
+     print(f"[O] {person}번째 손님 (소요시간 : {num})")
+     count+=1
+    else :
+     print(f"[ ] {person}번째 손님 (소요시간 : {num})")
+    person+=1
 
 
-# print(f"총 탑승 승객 {count} 분")
+print(f"총 탑승 승객 {count} 분")
 
 cnt=0
 for i in range(1,51):
