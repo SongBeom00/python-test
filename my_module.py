@@ -1,11 +1,8 @@
-def add(a,b):
-    return a+b
+weather=input("오늘 날씨는 어때요? ")
 
-def sub(a,b):
-    return a-b
-
-def mul(a,b):
-    return a*b
-
-def div(a,b):
-    return a/b
+if weather=="비":
+    print("우산을 챙기세요")
+elif weather=="미세먼지":
+    print("마스크 챙기세요")
+else : 
+    print("준비물 필요없어요")   
